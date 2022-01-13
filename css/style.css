@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/** 
+* Menu de navigation
+*/
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0 20px 0; /* haut , droite, bas, gauche */
+    }
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.logo span {
+    color: orange;
+}
+
+#menu nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 35px;
+}
+
+#menu nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+/**
+* titre, slogan et image du chien
+*/
+
+header {
+    background-color: #f8f9fa;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between; /* Centrage horizontal, seulement avec les flexbox */
+    width: 60%;
+    margin: auto;
+    align-items: center; /* Centrage vertical, seulement avec les flexbox */
+
+}
+
+/* Largeur de l'image contenue dans le header */
+
+.headerDog {
+    width: 35%;
+}
+
+.headerTitle h1 {
+    font-size: 4rem;
+    margin: 0; /* Suppression des marges auto, sur la balise heading */
+    font-weight: lighter;
+}
+
+.headerTitle p {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: lighter;
+    color: #999999;
+}
